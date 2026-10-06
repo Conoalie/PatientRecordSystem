@@ -1,4 +1,20 @@
 
+document.getElementById("patient-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+  const patient = {
+    firstName: document.getElementById("firstName").value.trim(),
+    lastName: document.getElementById("lastName").value.trim(),
+    dob: document.getElementById("dob").value,
+    height: document.getElementById("height").value,
+    weight: document.getElementById("weight").value,
+    sex: document.getElementById("sex").value.trim(),
+    mobile: document.getElementById("mobile").value.trim(),
+    email: document.getElementById("email").value.trim(),
+    healthInfo: document.getElementById("healthInfo").value.trim()
+  };
+
+  console.log(patient);
+});
 /*
 let patientID = "Patient ID";
 let firstName = "First Name";
