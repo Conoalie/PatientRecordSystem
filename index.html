@@ -4,11 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patient Record system</title>
-    <script src="scripts/script.js" defer> </script>
+    <title>Conoalie Computing - Patient Record system</title>
+    <script src="js/script.js" defer> </script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Conoalie Computing - Patient Record System</h1>
+        <p>Patient Records</p>
+    </header>
+
+    <h2>Statistics</h2>
+
+    <h2>Patient Details</h2>
+    <form id="patient-form">
+        First name
+        <input id="firstName" type="text">
+        Last name
+        <input id="lastName" type="text">
+        Date of birth
+        <input id="dob" type="date">
+        Height (cm)
+        <input id="height" type="number" step="0.1">
+        Weight (kg)
+        <input id="weight" type="number" step="0.1">
+        Sex (Male / Female)
+        <input id="sex" type="text">
+        Mobile (11 digits, starts 07)
+        <input id="mobile" type="text">
+        Email
+        <input id="email" type="email">
+        Health information (optional)
+        <textarea id="healthInfo" rows="3"></textarea>
+
+        <button type="submit" id="save-btn">Add patient</button>
+    </form>
+
+    <h2>Patients</h2>
 
 </body>
 

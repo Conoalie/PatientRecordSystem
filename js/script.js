@@ -1,3 +1,5 @@
+
+/*
 let patientID = "Patient ID";
 let firstName = "First Name";
 let lastName = "Last Name";
@@ -10,7 +12,7 @@ let eMail = "FirstNameLastName@outlook.co.uk";
 let healthInfo = "Health Info";
 let BMI = 50; //weight divided by height
 let BMICategory = "Normal"; //Underweight: below 18.5; Normal: 18.5–24.9; Overweight: 25.0–29.9; Obese: 30 or above. 
-
+*/
 
 // Validate mobile number before using
 /*
